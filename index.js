@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const port = 4000
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://nitishs:123454321@kudosware.j8am3.mongodb.net/?retryWrites=true&w=majority&appName=Kudosware'
+mongoose.connect('MONGO_URI'
     ,{useNewUrlParser: true,
         useUnifiedTopology: true,
         autoIndex: true,
